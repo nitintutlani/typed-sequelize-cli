@@ -1,6 +1,6 @@
 {
   "name": "sequelize-cli",
-  "main": "sequelize.d.ts",
+  "main": "sequelize-cli.d.ts",
   "author": "Nitin Tutlani <nitintutlani@yahoo.com>",
   "dependencies": {},
   "devDependencies": {},

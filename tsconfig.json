@@ -1,0 +1,6 @@
+{
+    "files": [
+        "sequelize-cli.d.ts",
+        "typings/main.d.ts"
+    ]
+}

@@ -1,7 +1,7 @@
 declare module "sequelize-cli" {
-    import {QueryInterface, Sequelize} from 'sequelize';
+    import {QueryInterface, SequelizeStatic} from 'sequelize';
 
-    export type Migration = (query?: QueryInterface, connection?: Sequelize, done?: () => void) => Promise<void> | void;
+    export type Migration = (queryInterface?: QueryInterface, Sequelize?: SequelizeStatic, done?: () => void) => Promise<void> | void;
 
-    export type Seeder = (query?: QueryInterface, connection?: Sequelize, done?: () => void) => Promise<void> | void;
+    export type Seeder = (queryInterface?: QueryInterface, Sequelize?: SequelizeStatic, done?: () => void) => Promise<void> | void;
 }
